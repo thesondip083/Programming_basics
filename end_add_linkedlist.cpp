@@ -69,16 +69,15 @@ int main()
     int n=5;
     for(int i=1;i<=n;i++)
     {
-        //if(i==3) continue;
+        if(i==3) continue;
         beg_insert(i);
         print();
     }
 
     int pos,val;
-    while(1){
     cin>>pos>>val;
     nth_insert(pos,val);
-    print();}
+    print();
     return 0;
 }
 
