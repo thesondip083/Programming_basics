@@ -1,0 +1,14 @@
+//swapping the value of two interger values without using third varibale
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    
+    int a=5,b=3;
+    a=a*b;             //a=5*3
+    b=a/b;            //b=(5*3)/3=5
+    a=a/b;            //a=(5*3)/5=3
+    cout<<a<<" "<<b;
+    return 0;
+}
